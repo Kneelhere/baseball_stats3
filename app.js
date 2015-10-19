@@ -13,6 +13,5 @@ app.controller("StatsController", function($scope){
 	$scope.bb;
 	$scope.so;
 	$scope.sb;
-	$scope.steals;
 	$scope.hbp;
 })
