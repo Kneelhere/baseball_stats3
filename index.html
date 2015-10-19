@@ -4,6 +4,39 @@
 		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 	</head>
 	<body ng-app="baseballStats">
+		<div ng-controller="PlayerController">
+			<input type="text" ng-model="name" name="text" placeholder="Name"/><br>
+			<input type="number" ng-model="at_bats" name="number" placeholder="At Bats"/><br>
+			<input type="number" ng-model="runs" name="number" placeholder="Runs"/><br>
+			<input type="number" ng-model="hits" name="number" placeholder="Hits"/><br>
+			<input type="number" ng-model="first" name="number" placeholder="1B"/><br>
+			<input type="number" ng-model="second" name="number" placeholder="2B"/><br>
+			<input type="number" ng-model="third" name="number" placeholder="3B"/><br>
+			<input type="number" ng-model="home" name="number" placeholder="Home Runs"/><br>
+			<input type="number" ng-model="rbi" name="number" placeholder="RBI"/><br>
+			<input type="number" ng-model="bb" name="number" placeholder="Walks"/><br>
+			<input type="number" ng-model="so" name="number" placeholder="Strike Outs"/><br>
+			<input type="number" ng-model="sb" name="number" placeholder="Stolen Bases"/><br>
+			<input type="number" ng-model="steals" name="number" placeholder="Steals"/><br>
+			<input type="number" ng-model="hbp" name="number" placeholder="HBP"/><br>
+			<br><pre>Neil Rayos</pre><br> 
+			<div>At Bats: 121 </div>
+			<div>Runs: 22 </div>
+			<div>Hits: 34 </div>
+			<div>1B: 14 </div>
+			<div>2B: 10 </div>
+			<div>3B: 8 </div>
+			<div>HR: 4 </div>
+			<div>RBI: 17 </div>
+			<div>BB: 6 </div>
+			<div>SO: 11 </div>
+			<div>SB: 4 </div>
+			<div>Steals: 17 </div>
+			<div>HBP: 4 </div>
+			<div>Avg: <!--divide hits by at bats--> </div>
+			<div>Slugging Percentage: <!-- total bases divided by at-bats--> </div>
+			<div>OBP: <!-- hits + walks + HBP --> </div>
+		</div>
 
 	</body>
-</html>
+</html> 
